@@ -10,14 +10,15 @@ const Header = () => {
 
     return (
         <StyledHeader>
-            <div className="logo">
+            <Link to="/" className="logo">
                 <img src={name_logo} alt="logo" />
                 {/* <img src={logo} alt="logo" />
             <h1>LearnCir</h1> */}
-            </div>
+            </Link>
             <nav className="menu">
                 <h2>MENU</h2>
                 <ul>
+                    <li><Link to='/'>Home</Link></li>
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/contents'>Contents</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>

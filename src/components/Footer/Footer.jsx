@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "./logo.png"
-import { StyledHeader } from "./Header.styled.jsx"
+import { StyledHeader } from "./Footer.styled.jsx"
 
 const Header = () => {
     // JavaScript Zone
