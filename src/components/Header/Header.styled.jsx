@@ -1,6 +1,13 @@
 import styled from 'styled-components'
 
+// const mq = @media screen and(max - width: 760px)
 export const StyledHeader = styled.header`
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items:center;

@@ -3,45 +3,30 @@ import top from './images/top.jpg'
 
 export const StyledHome = styled.div`
     height: 100vh;
-    .header_box {
-        display: flex;
-        justify-content: space-between;
-        ul {
-            display: flex;
-            /* justify-content: center; */
-            align-items: center;
-            list-style: none;
-            h2 {
-                font-size: 30px;
-                margin-right: 15px;
-            }
-            li {
-                font-size: 25px;
-                margin: 10px;
-            }
-        }
-    }
+    padding-top: 80px;
+    
     .catch {
     background-image: url(${top});
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100%;
-    padding-top: 400px;
+    display: flex;
+    align-items: center;
     .catchcopy {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 700px;
+        width: 45%;
         h1 {
-            font-size: 40px;
-            margin:30px 0 10px;
+            font-size: 2.6vw;
+            /* margin:30px 0 10px; */
             opacity: 0.8;
         }
         p {
-            font-size: 30px;
-            margin-top: 5px;
+            font-size: 2vw;
+            margin-top: 10px;
             opacity: 0.8;
         }
     }

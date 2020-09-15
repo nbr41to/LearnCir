@@ -3,10 +3,9 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 import Header from "./components/Header"
 import Home from './components/pages/Home'
 import About from './components/pages/About'
+import "./styles/reset.css"
 
 const App = () => {
-  // JavaScript Zone
-
   return (
     <BrowserRouter>
       <Header />
